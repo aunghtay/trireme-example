@@ -11,7 +11,7 @@ import:
 - package: go.uber.org/zap
   version: ^1.3.0
 - package: github.com/aporeto-inc/trireme
-  version: 1.0.x
+  version: a813cb0c0a711ab4234a11bfa0baba0cf1664126
   subpackages:
   - cache
   - cmd/remoteeneforcer
