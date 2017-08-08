@@ -103,6 +103,7 @@ func main() {
     --caKeyFile=<caKeyFile>                CA key [default: certs/ca-key.pem].
     --hybrid                               Hybrid mode of deployment [default: false]
     --remote                               Remote mode of deployment [default: false]
+    --cni                                  Remote mode of deployment [default: false]
     --local                                Local mode of deployment [default: true]
     --swarm                                Deploy Doccker Swarm metadata extractor [default: false]
     --extractor                            External metadata extractor [default: ]
