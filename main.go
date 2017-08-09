@@ -80,7 +80,7 @@ func main() {
     trireme daemon
         [--target-networks=<networks>...]
         [--usePKI]
-        [--hybrid|--remote|--local]
+        [--hybrid|--remote|--local|--cni]
         [--swarm|--extractor <metadatafile>]
         [--keyFile=<keyFile>]
         [--certFile=<certFile>]

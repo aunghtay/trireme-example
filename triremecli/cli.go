@@ -117,7 +117,7 @@ func processDaemonArgs(arguments map[string]interface{}, processor enforcer.Pack
 
 	if arguments["--cni"].(bool) {
 		zap.L().Info("Setting up CNI trireme with PSK")
-		t, m = constructors.TriremeCNIWithPSK(targetNetworks, &customExtractor, remote, KillContainerOnError)
+		t, m = constructors.TriremeCNIWithPSK(targetNetworks, false, KillContainerOnError)
 	}
 
 	if t == nil {
